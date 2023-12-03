@@ -39,6 +39,9 @@ if (keyboard_check(opinput) && (!instance_exists(obj_modconfig)))
 }
 if instance_exists(obj_modconfig)
 	state = states.actor
+	hsp = 0
+	vsp = 0
+	sprite_index = spr_file2
 
 if (place_meeting(x, y, obj_secretportal) || place_meeting(x, y, obj_secretportalstart))
 	collision_flags |= colflag.secret;
