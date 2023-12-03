@@ -1,0 +1,20 @@
+if (instance_number(obj_hardmode) > 1)
+	instance_destroy();
+depth = -108;
+hsp = 0;
+vsp = 0;
+fake_y = y;
+random_max = 300;
+random_random = 120;
+random_buffer = random_max + irandom_range(-(random_random + 1), random_random);
+content[0] = 646;
+content[1] = 681;
+content[2] = 688;
+content[3] = 660;
+content[4] = 687;
+content[5] = 666;
+content[6] = 657;
+content[7] = 668;
+content[8] = 683;
+content[9] = 684;
+content[10] = 653;
