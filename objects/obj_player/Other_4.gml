@@ -224,3 +224,4 @@ if (state == states.chainsaw)
 	hitY = y;
 	hitLag = 0;
 }
+scr_createusername();

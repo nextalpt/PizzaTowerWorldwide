@@ -1,3 +1,3 @@
-if character != "V" {
+if other.character != "V" {
 	scr_hurtplayer(other);
 }

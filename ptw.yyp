@@ -420,7 +420,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_bossdoor","path":"objects/obj_bossdoor/obj_bossdoor.yy",},},
@@ -8048,6 +8048,7 @@
     {"roomId":{"name":"industrial_5","path":"rooms/industrial_5/industrial_5.yy",},},
     {"roomId":{"name":"tower_test","path":"rooms/tower_test/tower_test.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":false,"loadType":"default","mipsToGenerate":0,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"backgroundgroup","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

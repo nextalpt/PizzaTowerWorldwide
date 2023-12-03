@@ -714,6 +714,7 @@ spinsndbuffer = 5;
 boxxedspinbuffer = 0;
 noisebossscream = false;
 gallopingsnd = fmod_event_create_instance("event:/sfx/misc/galloping");
-global.username = "i am eating doretioes"
+global.username = "I AM EATING DORIETOS"
+global.username_color = c_blue
 scr_createusername();
 opinput = ord("vk_f1") 
