@@ -34,9 +34,11 @@ enum colflag
 
 collision_flags = 0;
 if (keyboard_check(opinput) && (!instance_exists(obj_modconfig)))
+{
     instance_create(x, y, obj_modconfig)
+}
 if instance_exists(obj_modconfig)
-    state = (146 << 0)
+	state = states.actor
 
 if (place_meeting(x, y, obj_secretportal) || place_meeting(x, y, obj_secretportalstart))
 	collision_flags |= colflag.secret;
