@@ -38,3 +38,14 @@ if (optionselected == 1)
 		ini_write_real("config", "slopeangle", 1)
 
 }
+if (optionselected == 2)
+{
+
+    if ((key_left2 || keyboard_check_pressed(vk_left)) && global.blockstyle == 1)
+        global.blockstyle= 0
+		ini_write_real("config", "blockstyle", 0)
+    if (((-key_right2) || keyboard_check_pressed(vk_right)) && global.blockstyle == 0)
+        global.blockstyle = 1
+		ini_write_real("config", "blockstyle", 1)
+
+}

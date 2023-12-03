@@ -13,3 +13,4 @@ tex_max = array_length(tex_list);
 alarm[0] = 70;
 global.smoothcam = false
 global.slopeangle = false
+global.blockstyle = 1
