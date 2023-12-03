@@ -19,3 +19,8 @@ if (optionselected == 1)
     draw_text_colour(25, 75, "SLOPE ANGLING", c_white, c_white, c_white, c_white, 1)
 else
     draw_text_colour(25, 75, "SLOPE ANGLING", c_white, c_white, c_white, c_white, 0.5)
+if (global.slopeangle == 1)
+    draw_text_colour(300, 75, "ON", c_white, c_white, c_white, c_white, 1)
+else
+    draw_text_colour(300, 75, "OFF", c_white, c_white, c_white, c_white, 0.5)
+
