@@ -1,5 +1,5 @@
 selecting = -1
-optionselected = 0
+optionselected = -1
 depth = -99
 selected = 0
 ini_open("modconfig.ini")
