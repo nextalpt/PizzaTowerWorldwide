@@ -3074,6 +3074,7 @@
     {"id":{"name":"spr_pepperman_stun","path":"sprites/spr_pepperman_stun/spr_pepperman_stun.yy",},},
     {"id":{"name":"spr_tv_barrel","path":"sprites/spr_tv_barrel/spr_tv_barrel.yy",},},
     {"id":{"name":"spr_pepperman_hurt","path":"sprites/spr_pepperman_hurt/spr_pepperman_hurt.yy",},},
+    {"id":{"name":"spr_bigbreakableOLD","path":"sprites/spr_bigbreakableOLD/spr_bigbreakableOLD.yy",},},
     {"id":{"name":"spr_pepperman_charge","path":"sprites/spr_pepperman_charge/spr_pepperman_charge.yy",},},
     {"id":{"name":"spr_intro_pepperman","path":"sprites/spr_intro_pepperman/spr_intro_pepperman.yy",},},
     {"id":{"name":"spr_peppermanlow_stun","path":"sprites/spr_peppermanlow_stun/spr_peppermanlow_stun.yy",},},

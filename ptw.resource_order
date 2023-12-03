@@ -12,6 +12,7 @@
     {"name":"obj_usernames","order":1,"path":"objects/obj_usernames/obj_usernames.yy",},
     {"name":"obj_usernamesNEW","order":1,"path":"objects/obj_usernamesNEW/obj_usernamesNEW.yy",},
     {"name":"obj_modconfig","order":2,"path":"objects/obj_modconfig/obj_modconfig.yy",},
+    {"name":"spr_bigbreakableOLD","order":4,"path":"sprites/spr_bigbreakableOLD/spr_bigbreakableOLD.yy",},
     {"name":"stairs","order":1,"path":"sequences/stairs/stairs.yy",},
     {"name":"obj_cameratoggley","order":1,"path":"objects/obj_cameratoggley/obj_cameratoggley.yy",},
     {"name":"obj_characterswitchpm","order":4,"path":"objects/obj_characterswitchpm/obj_characterswitchpm.yy",},
