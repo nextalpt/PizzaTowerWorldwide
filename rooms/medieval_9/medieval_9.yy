@@ -86,6 +86,7 @@
     {"name":"inst_8680C9A4","path":"rooms/medieval_9/medieval_9.yy",},
     {"name":"inst_1A33371C","path":"rooms/medieval_9/medieval_9.yy",},
     {"name":"inst_9FE6A584","path":"rooms/medieval_9/medieval_9.yy",},
+    {"name":"inst_508690E2","path":"rooms/medieval_9/medieval_9.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -169,6 +170,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8680C9A4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_exitgustavo","path":"objects/obj_exitgustavo/obj_exitgustavo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1707.0,"y":402.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A33371C","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cheeseslime","path":"objects/obj_cheeseslime/obj_cheeseslime.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1771.0,"y":882.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_9FE6A584","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cheeseslime","path":"objects/obj_cheeseslime/obj_cheeseslime.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1899.0,"y":882.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_508690E2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_snickexe","path":"objects/obj_snickexe/obj_snickexe.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1504.0,"y":96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_215B03E0","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_doublejumpmyliege","path":"sprites/spr_doublejumpmyliege/spr_doublejumpmyliege.yy",},"x":1312.0,"y":480.0,},

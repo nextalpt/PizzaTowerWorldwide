@@ -161,6 +161,7 @@
     {"name":"inst_F1AF84C0","path":"rooms/ruin_10/ruin_10.yy",},
     {"name":"inst_8652F248","path":"rooms/ruin_10/ruin_10.yy",},
     {"name":"inst_0A1660B0","path":"rooms/ruin_10/ruin_10.yy",},
+    {"name":"inst_7D81BB41","path":"rooms/ruin_10/ruin_10.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -319,6 +320,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F1AF84C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destroyable3","path":"objects/obj_destroyable3/obj_destroyable3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2624.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8652F248","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destroyable3","path":"objects/obj_destroyable3/obj_destroyable3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3456.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_0A1660B0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destroyable3","path":"objects/obj_destroyable3/obj_destroyable3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4480.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7D81BB41","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_snickexe","path":"objects/obj_snickexe/obj_snickexe.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2528.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":17,"SerialiseWidth":166,"TileCompressedData":[
 -190,0,2,418,419,-101,0,3,447,448,449,-60,0,2,428,429,-101,0,3,457,458,459,-553,0,1,79,-471,0,2,445,446,-164,0,2,455,456,-524,0,3,415,416,417,-163,0,3,425,426,427,-163,0,3,435,436,437,-308,0,],"TileDataFormat":1,},"tilesetId":{"name":"tile_ruincheese","path":"tilesets/tile_ruincheese/tile_ruincheese.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

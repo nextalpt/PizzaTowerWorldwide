@@ -167,6 +167,7 @@
     {"name":"inst_ACD34551","path":"rooms/dungeon_3/dungeon_3.yy",},
     {"name":"inst_2187B3C9","path":"rooms/dungeon_3/dungeon_3.yy",},
     {"name":"inst_A63A2132","path":"rooms/dungeon_3/dungeon_3.yy",},
+    {"name":"inst_5D0650A4","path":"rooms/dungeon_3/dungeon_3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -331,6 +332,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_ACD34551","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_escapecollect","path":"objects/obj_escapecollect/obj_escapecollect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1216.0,"y":1664.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2187B3C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_escapecollect","path":"objects/obj_escapecollect/obj_escapecollect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":1664.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A63A2132","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_escapecollect","path":"objects/obj_escapecollect/obj_escapecollect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":1632.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5D0650A4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_snickexe","path":"objects/obj_snickexe/obj_snickexe.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":94,"SerialiseWidth":50,"TileCompressedData":[
 -744,0,2,563,564,-48,0,2,573,574,-163,0,1,255,-49,0,1,265,-584,0,3,268435985,268435984,268435983,-47,0,3,268435995,268435994,268435993,-217,0,1,255,-690,0,3,527,528,529,-47,0,3,537,538,539,-439,0,2,563,
