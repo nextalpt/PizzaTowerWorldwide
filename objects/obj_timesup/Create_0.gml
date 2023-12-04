@@ -5,6 +5,7 @@ grounded = false;
 image_speed = 0;
 alarm[0] = 40;
 global.panic = false;
+global.snickchallenge = false;
 alarm[1] = 500;
 platformid = -4;
 hsp_carry = 0;

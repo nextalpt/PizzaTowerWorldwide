@@ -49,7 +49,7 @@ switch (state)
 		idlespr = spr_tv_idle;
 		if (!obj_player.ispeppino)
 			idlespr = spr_tv_idleN;
-		if (global.panic)
+		if (global.panic || global.snickchallenge)
 			idlespr = spr_tv_exprpanic;
 		else if (global.combo >= 3 && global.stylethreshold < 3 && !obj_player.isgustavo)
 			idlespr = spr_tv_exprcombo;
@@ -58,7 +58,7 @@ switch (state)
 		if (obj_player.isgustavo)
 		{
 			idlespr = spr_tv_idleG;
-			if (global.panic)
+			if (global.panic || global.snickchallenge)
 				idlespr = spr_tv_escapeG;
 		}
 		var _state = obj_player1.state;
@@ -366,7 +366,7 @@ if (global.panic && global.fill > 0)
 	else
 		timer_y = Approach(timer_y, timer_ystart + 212, 4);
 }
-else if (global.panic)
+else if (global.panic || global.snickchallenge)
 {
 	if (pizzaface_sprite == spr_timer_pizzaface1)
 	{

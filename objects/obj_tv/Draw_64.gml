@@ -75,7 +75,7 @@ surface_reset_target();
 draw_surface(promptsurface, SCREEN_WIDTH - 610, 0);
 draw_set_font(global.smallnumber_fnt);
 draw_set_halign(1);
-if (global.panic)
+if (global.panic || global.snickchallenge)
 {
 	var _fill = global.fill;
 	var _currentbarpos = chunkmax - _fill;

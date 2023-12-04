@@ -1,4 +1,4 @@
-if (global.panic == true && !instance_exists(obj_ghostcollectibles))
+if (global.panic or global.snickchallenge == true && !instance_exists(obj_ghostcollectibles))
 {
 	global.seconds -= 1;
 	if (global.collect >= 5 && !instance_exists(obj_ghostcollectibles))
