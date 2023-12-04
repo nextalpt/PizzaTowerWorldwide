@@ -6141,6 +6141,7 @@
     {"id":{"name":"spr_ratmountgroundpound","path":"sprites/spr_ratmountgroundpound/spr_ratmountgroundpound.yy",},},
     {"id":{"name":"bg_peppermanarena","path":"sprites/bg_peppermanarena/bg_peppermanarena.yy",},},
     {"id":{"name":"spr_kingghost_spike2","path":"sprites/spr_kingghost_spike2/spr_kingghost_spike2.yy",},},
+    {"id":{"name":"spr_onewaybigblockOLD","path":"sprites/spr_onewaybigblockOLD/spr_onewaybigblockOLD.yy",},},
     {"id":{"name":"spr_towercomplex","path":"sprites/spr_towercomplex/spr_towercomplex.yy",},},
     {"id":{"name":"spr_preparetodraw","path":"sprites/spr_preparetodraw/spr_preparetodraw.yy",},},
     {"id":{"name":"spr_pizzahead_eat1","path":"sprites/spr_pizzahead_eat1/spr_pizzahead_eat1.yy",},},

@@ -31,15 +31,19 @@ else
     draw_text_colour(25, 100, "BLOCK STYLE", c_white, c_white, c_white, c_white, 0.5)
 if (optionselected == 2)
 {
-	if (global.blockstyle == 1)
+	if (global.blockstyle == 2)
+	    draw_text_colour(250, 100, "SEPTEMBER", c_white, c_white, c_white, c_white, 1)
+	else if (global.blockstyle == 1)
 	    draw_text_colour(300, 100, "NEW", c_white, c_white, c_white, c_white, 1)
-	else
+	else if (global.blockstyle == 0)
 	    draw_text_colour(300, 100, "OLD", c_white, c_white, c_white, c_white, 1)
 }
 else
 {
-	if (global.blockstyle == 1)
+	if (global.blockstyle == 2)
+	    draw_text_colour(250, 100, "SEPTEMBER", c_white, c_white, c_white, c_white, 0.5)
+	else if (global.blockstyle == 1)
 	    draw_text_colour(300, 100, "NEW", c_white, c_white, c_white, c_white, 0.5)
-	else
+	else if (global.blockstyle == 0)
 	    draw_text_colour(300, 100, "OLD", c_white, c_white, c_white, c_white, 0.5)
 }

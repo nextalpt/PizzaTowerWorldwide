@@ -3,7 +3,7 @@ bg_y += 0.9
 scr_getinput()
 if ((key_up2 || keyboard_check_pressed(vk_up)) && optionselected > -1 && selected == 0)
     optionselected--
-if ((key_down2 || keyboard_check_pressed(vk_down)) && optionselected < 1 && selected == 0)
+if ((key_down2 || keyboard_check_pressed(vk_down)) && optionselected < 2 && selected == 0)
     optionselected++
 if (optionselected == -1)
 {
@@ -47,5 +47,11 @@ if (optionselected == 2)
     if (((-key_right2) || keyboard_check_pressed(vk_right)) && global.blockstyle == 0)
         global.blockstyle = 1
 		ini_write_real("config", "blockstyle", 1)
+    if (((-key_left2) || keyboard_check_pressed(vk_right)) && global.blockstyle == 2)
+        global.blockstyle = 1
+		ini_write_real("config", "blockstyle", 1)
+    if (((-key_right2) || keyboard_check_pressed(vk_right)) && global.blockstyle == 1)
+        global.blockstyle = 2
+		ini_write_real("config", "blockstyle", 2)
 
 }
