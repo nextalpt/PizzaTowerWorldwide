@@ -8,6 +8,7 @@
     {"name":"obj_panicbricks","order":1,"path":"objects/obj_panicbricks/obj_panicbricks.yy",},
     {"name":"spr_towerblocksmallOLD","order":3,"path":"sprites/spr_towerblocksmallOLD/spr_towerblocksmallOLD.yy",},
     {"name":"scr_createusername","order":1,"path":"scripts/scr_createusername/scr_createusername.yy",},
+    {"name":"spr_snickchallengecomputergunk","order":1,"path":"sprites/spr_snickchallengecomputergunk/spr_snickchallengecomputergunk.yy",},
     {"name":"obj_modeselect","order":2,"path":"objects/obj_modeselect/obj_modeselect.yy",},
     {"name":"obj_usernames","order":1,"path":"objects/obj_usernames/obj_usernames.yy",},
     {"name":"hub_sage","order":2,"path":"rooms/hub_sage/hub_sage.yy",},
@@ -25,5 +26,6 @@
     {"name":"spr_destroyable2OLD","order":1,"path":"sprites/spr_destroyable2OLD/spr_destroyable2OLD.yy",},
     {"name":"tower_test","order":1,"path":"rooms/tower_test/tower_test.yy",},
     {"name":"spr_border","order":1,"path":"sprites/spr_border/spr_border.yy",},
+    {"name":"obj_lighting","order":3,"path":"objects/obj_lighting/obj_lighting.yy",},
   ],
 }

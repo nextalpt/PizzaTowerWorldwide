@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_snickchallengecomputer",
-  "bbox_bottom": 99,
+  "bbox_bottom": 95,
   "bbox_left": 1,
   "bbox_right": 97,
   "bbox_top": 0,
