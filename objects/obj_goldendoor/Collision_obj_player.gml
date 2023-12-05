@@ -9,8 +9,6 @@ if (_actor)
 	exit;
 if (global.horse)
 	exit;
-if (john && global.panic)
-	exit;
 if (!place_meeting(x, y, obj_doorblocked))
 {
 	with (other)
