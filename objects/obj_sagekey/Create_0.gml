@@ -13,3 +13,4 @@ image_speed = 0.35;
 platformid = -4;
 hsp_carry = 0;
 vsp_carry = 0;
+ini_open("saveData.ini")

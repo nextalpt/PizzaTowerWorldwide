@@ -4844,6 +4844,7 @@
     {"id":{"name":"spr_firemouth_projectile","path":"sprites/spr_firemouth_projectile/spr_firemouth_projectile.yy",},},
     {"id":{"name":"spr_combovery","path":"sprites/spr_combovery/spr_combovery.yy",},},
     {"id":{"name":"spr_freemilk","path":"sprites/spr_freemilk/spr_freemilk.yy",},},
+    {"id":{"name":"tile_strongcold2","path":"sprites/tile_strongcold2/tile_strongcold2.yy",},},
     {"id":{"name":"bg_ruinpizzafacestatue","path":"sprites/bg_ruinpizzafacestatue/bg_ruinpizzafacestatue.yy",},},
     {"id":{"name":"spr_tv_hurtG","path":"sprites/spr_tv_hurtG/spr_tv_hurtG.yy",},},
     {"id":{"name":"bg_ruinforeground","path":"sprites/bg_ruinforeground/bg_ruinforeground.yy",},},

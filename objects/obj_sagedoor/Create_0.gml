@@ -4,3 +4,4 @@ target_x = 0;
 target_y = 0;
 targetDoor = "A";
 scr_create_uparrowhitbox();
+ini_open("saveData.ini")
