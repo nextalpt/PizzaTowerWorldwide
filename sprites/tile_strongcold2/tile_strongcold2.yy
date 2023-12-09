@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Dungeon",
-    "path": "folders/Sprites/Tilesets/Dungeon.yy",
+    "name": "Strongcold",
+    "path": "folders/Sprites/Tilesets/Strongcold.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

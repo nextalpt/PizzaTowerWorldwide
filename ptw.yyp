@@ -3974,6 +3974,7 @@
     {"id":{"name":"spr_supertaunteffect4","path":"sprites/spr_supertaunteffect4/spr_supertaunteffect4.yy",},},
     {"id":{"name":"spr_playerN_mach3","path":"sprites/spr_playerN_mach3/spr_playerN_mach3.yy",},},
     {"id":{"name":"spr_playerN_mach3jump","path":"sprites/spr_playerN_mach3jump/spr_playerN_mach3jump.yy",},},
+    {"id":{"name":"spr_smallfont","path":"sprites/spr_smallfont/spr_smallfont.yy",},},
     {"id":{"name":"bg_noiseballooncrash","path":"sprites/bg_noiseballooncrash/bg_noiseballooncrash.yy",},},
     {"id":{"name":"spr_pizzahead_intro3","path":"sprites/spr_pizzahead_intro3/spr_pizzahead_intro3.yy",},},
     {"id":{"name":"spr_player_ratmountgroundpoundfall","path":"sprites/spr_player_ratmountgroundpoundfall/spr_player_ratmountgroundpoundfall.yy",},},
