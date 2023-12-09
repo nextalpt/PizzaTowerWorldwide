@@ -545,11 +545,13 @@ if (!variable_global_exists("saveroom"))
 	global.tutorialfont = font_add_sprite_ext(spr_tutorialfont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!,.:0123456789'?-", true, 2);
 	global.creditsfont = font_add_sprite_ext(spr_creditsfont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.:!0123456789?'\"ÁÉÍÓÚáéíóú_-[]▼()&#风雨廊桥전태양*яиБжидГзвбнль", true, 2);
 	global.moneyfont = font_add_sprite_ext(spr_stickmoney_font, "0123456789$-", true, 0);
+	global.usernamefont = font_add_sprite_ext(spr_smallfont, "ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz!.,_1234567890:?", true, 0);
 	global.font_map = ds_map_create();
 	ds_map_set(global.font_map, "bigfont_en", global.bigfont);
 	ds_map_set(global.font_map, "smallfont_en", global.smallfont);
 	ds_map_set(global.font_map, "tutorialfont_en", global.tutorialfont);
 	ds_map_set(global.font_map, "creditsfont_en", global.creditsfont);
+	ds_map_set(global.font_map, "usernamefont_en", global.usernamefont);
 	var key = ds_map_find_first(global.lang_map);
 	for (var i = 0; i < ds_map_size(global.lang_map); i++)
 	{
@@ -560,6 +562,7 @@ if (!variable_global_exists("saveroom"))
 			ds_map_set(global.font_map, concat("creditsfont_", key), lang_get_custom_font("creditsfont", lang));
 			ds_map_set(global.font_map, concat("bigfont_", key), lang_get_custom_font("bigfont", lang));
 			ds_map_set(global.font_map, concat("smallfont_", key), lang_get_custom_font("smallfont", lang));
+			ds_map_set(global.font_map, concat("usernamefont_", key), lang_get_custom_font("usernamefont", lang));
 		}
 		key = ds_map_find_next(global.lang_map, key);
 	}
