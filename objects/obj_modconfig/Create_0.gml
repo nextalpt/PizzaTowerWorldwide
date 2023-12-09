@@ -6,3 +6,5 @@ ini_open("modconfig.ini")
 bg_x = 0
 bg_y = 0
 cooldown = 15
+optionimg = spr_Opeppino
+sped = -1

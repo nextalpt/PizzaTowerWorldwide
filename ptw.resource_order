@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [
-    {"name":"Vigi","order":1,"path":"folders/Sprites/Player/Vigi.yy",},
     {"name":"Geggino","order":2,"path":"folders/Sprites/Player/Geggino.yy",},
+    {"name":"Vigi","order":1,"path":"folders/Sprites/Player/Vigi.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"tower_0","order":3,"path":"rooms/tower_0/tower_0.yy",},

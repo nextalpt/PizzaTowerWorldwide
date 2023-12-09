@@ -317,6 +317,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Secret Portal","folderPath":"folders/Sprites/Level Structure/Warps/Secret Portal.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Character select","folderPath":"folders/Sprites/Player/Character select.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Geggino","folderPath":"folders/Sprites/Player/Geggino.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Gustavo","folderPath":"folders/Sprites/Player/Gustavo.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Noise","folderPath":"folders/Sprites/Player/Noise.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bomb","folderPath":"folders/Sprites/Player/Noise/Bomb.yy",},
@@ -410,7 +411,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Unused","folderPath":"folders/Tile Sets/Unused.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"War","folderPath":"folders/Tile Sets/War.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Geggino","folderPath":"folders/Sprites/Player/Geggino.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.txt","CopyToMask":-1,"filePath":"datafiles",},
