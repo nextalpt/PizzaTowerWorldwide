@@ -16,6 +16,7 @@
     {"name":"obj_modeselect","order":2,"path":"objects/obj_modeselect/obj_modeselect.yy",},
     {"name":"obj_usernames","order":1,"path":"objects/obj_usernames/obj_usernames.yy",},
     {"name":"hub_sage","order":2,"path":"rooms/hub_sage/hub_sage.yy",},
+    {"name":"obj_characterswitchgeg","order":5,"path":"objects/obj_characterswitchgeg/obj_characterswitchgeg.yy",},
     {"name":"obj_usernamesNEW","order":1,"path":"objects/obj_usernamesNEW/obj_usernamesNEW.yy",},
     {"name":"obj_modconfig","order":2,"path":"objects/obj_modconfig/obj_modconfig.yy",},
     {"name":"spr_bigbreakableOLD","order":4,"path":"sprites/spr_bigbreakableOLD/spr_bigbreakableOLD.yy",},

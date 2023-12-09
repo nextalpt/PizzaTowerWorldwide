@@ -2374,6 +2374,7 @@
     {"id":{"name":"tower_farmland","path":"rooms/tower_farmland/tower_farmland.yy",},},
     {"id":{"name":"tower_laundryroom","path":"rooms/tower_laundryroom/tower_laundryroom.yy",},},
     {"id":{"name":"tower_noisettecafe","path":"rooms/tower_noisettecafe/tower_noisettecafe.yy",},},
+    {"id":{"name":"obj_characterswitchgeg","path":"objects/obj_characterswitchgeg/obj_characterswitchgeg.yy",},},
     {"id":{"name":"tower_ruinsecret","path":"rooms/tower_ruinsecret/tower_ruinsecret.yy",},},
     {"id":{"name":"tower_ravine","path":"rooms/tower_ravine/tower_ravine.yy",},},
     {"id":{"name":"tower_pizzaland","path":"rooms/tower_pizzaland/tower_pizzaland.yy",},},

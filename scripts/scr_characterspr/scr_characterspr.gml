@@ -820,7 +820,7 @@ function scr_characterspr()
 		spr_idle = spr_playerG_idle;
 		spr_move = spr_player_move;
 		spr_crawl = spr_player_crawl;
-		spr_idle = spr_player_idle; // yeah set it again why don't you
+		spr_idle = spr_playerG_idle; // yeah set it again why don't you
 		spr_hurt = spr_player_hurt;
 		spr_jump = spr_player_jump;
 		spr_jump2 = spr_player_jump2;
@@ -1047,7 +1047,7 @@ function scr_characterspr()
 		spr_mortthrow = spr_player_mortthrow;
 		spr_Sjumpcancelstart = spr_player_Sjumpcancelstart;
 		spr_sjumpcancel = spr_player_Sjumpcancel;
-		spr_palette = spr_peppalette;
+		spr_palette = spr_gegginopalette;
 		paletteselect = 1;
 	}
 }
