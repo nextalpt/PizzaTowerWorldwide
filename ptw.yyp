@@ -410,6 +410,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Unused","folderPath":"folders/Tile Sets/Unused.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"War","folderPath":"folders/Tile Sets/War.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Geggino","folderPath":"folders/Sprites/Player/Geggino.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -3832,6 +3833,7 @@
     {"id":{"name":"pattern_set_pattern","path":"scripts/pattern_set_pattern/pattern_set_pattern.yy",},},
     {"id":{"name":"spr_player_haulingwalk","path":"sprites/spr_player_haulingwalk/spr_player_haulingwalk.yy",},},
     {"id":{"name":"spr_player_haulingjump","path":"sprites/spr_player_haulingjump/spr_player_haulingjump.yy",},},
+    {"id":{"name":"spr_playerG_idle","path":"sprites/spr_playerG_idle/spr_playerG_idle.yy",},},
     {"id":{"name":"spr_hillbilly_dead","path":"sprites/spr_hillbilly_dead/spr_hillbilly_dead.yy",},},
     {"id":{"name":"spr_totemcloud_attack","path":"sprites/spr_totemcloud_attack/spr_totemcloud_attack.yy",},},
     {"id":{"name":"spr_noisevengeful2","path":"sprites/spr_noisevengeful2/spr_noisevengeful2.yy",},},
@@ -4101,6 +4103,7 @@
     {"id":{"name":"spr_playerN_walljumpstart","path":"sprites/spr_playerN_walljumpstart/spr_playerN_walljumpstart.yy",},},
     {"id":{"name":"spr_playerN_walljumpend","path":"sprites/spr_playerN_walljumpend/spr_playerN_walljumpend.yy",},},
     {"id":{"name":"spr_stick_forsale","path":"sprites/spr_stick_forsale/spr_stick_forsale.yy",},},
+    {"id":{"name":"spr_gegginopalette","path":"sprites/spr_gegginopalette/spr_gegginopalette.yy",},},
     {"id":{"name":"spr_playerN_idledance","path":"sprites/spr_playerN_idledance/spr_playerN_idledance.yy",},},
     {"id":{"name":"spr_playerN_idleballoon","path":"sprites/spr_playerN_idleballoon/spr_playerN_idleballoon.yy",},},
     {"id":{"name":"spr_playerN_idlemask","path":"sprites/spr_playerN_idlemask/spr_playerN_idlemask.yy",},},

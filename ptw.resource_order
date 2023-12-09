@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [
     {"name":"Vigi","order":1,"path":"folders/Sprites/Player/Vigi.yy",},
+    {"name":"Geggino","order":2,"path":"folders/Sprites/Player/Geggino.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"tower_0","order":3,"path":"rooms/tower_0/tower_0.yy",},
@@ -20,6 +21,7 @@
     {"name":"spr_bigbreakableOLD","order":4,"path":"sprites/spr_bigbreakableOLD/spr_bigbreakableOLD.yy",},
     {"name":"stairs","order":1,"path":"sequences/stairs/stairs.yy",},
     {"name":"spr_smallfont","order":1,"path":"sprites/spr_smallfont/spr_smallfont.yy",},
+    {"name":"spr_gegginopalette","order":1,"path":"sprites/spr_gegginopalette/spr_gegginopalette.yy",},
     {"name":"bg_sagebuildinglocked","order":1,"path":"sprites/bg_sagebuildinglocked/bg_sagebuildinglocked.yy",},
     {"name":"obj_characterswitchpm","order":4,"path":"objects/obj_characterswitchpm/obj_characterswitchpm.yy",},
     {"name":"obj_characterswitchvigi","order":3,"path":"objects/obj_characterswitchvigi/obj_characterswitchvigi.yy",},
