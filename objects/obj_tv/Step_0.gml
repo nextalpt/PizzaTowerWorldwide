@@ -451,3 +451,21 @@ else
 combofill_index += 0.35;
 if (combofill_index > (sprite_get_number(spr_tv_combobubblefill) - 1))
 	combofill_index = frac(combofill_index);
+	drawing = 1
+	scr_hub_bg_step()
+	if !drawing
+	{
+		var dis = 250
+		bgalpha = (distance_to_object(obj_player) / dis)
+		bgalpha -= 0.25
+		if bgalpha > 1
+		bgalpha = 1
+		if bgalpha < 0
+		bgalpha = 1
+	}
+	else
+	bgalpha = Approach(bgalpha,0,0.1)
+	if (distance_to_object(obj_player) > 50)
+	alpha = Approach(alpha, 1, 0.1)
+	else
+	alpha = Approach(alpha, 0, 0.1)

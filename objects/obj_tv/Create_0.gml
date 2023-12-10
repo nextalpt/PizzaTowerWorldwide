@@ -79,3 +79,6 @@ hand_index = 0;
 bar_surface = -4;
 barfill_x = 0;
 showtime_buffer = 0;
+parrallaxnumber = 1
+scr_hub_bg_init(parrallaxnumber, 1)
+bgsprite = spr_gate_tutorialBG

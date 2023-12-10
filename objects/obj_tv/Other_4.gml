@@ -19,9 +19,11 @@ if (r != "towertutorial" && string_copy(r, 1, 5) == "tower")
 else
 	timer_tower = false;
 tv_bg_index = 0;
+bgsprite = spr_gate_vigilanteBG
 switch (global.leveltosave)
 {
 	case "entrance":
+	bgsprite = spr_gate_entranceBG
 		tv_bg_index = 1;
 		break;
 	case "medieval":

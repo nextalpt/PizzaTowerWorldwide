@@ -1,9 +1,13 @@
 draw_set_font(global.usernamefont)
 //draw_sprite_tiled(bg_ball, 2, bg_x, bg_y)
 draw_sprite_tiled_ext(spr_electricwall, 0, bg_x, bg_y, 1, 1, c_white, 0.5)
+draw_sprite_tiled_ext(spr_optionsBG, 1, 384, 64, 1, 1, c_white, 0.3)
 draw_set_halign(fa_left)
 draw_sprite_ext(spr_border, 0, 384, 64, 5.333333, 3.333333, 0, c_white, 1)
+draw_set_font(global.creditsfont)
 draw_sprite(optionimg, sped, 640, 288)
+ draw_text_colour(78, 452, infor, c_white, c_white, c_white, c_white, 1)
+ draw_set_font(global.usernamefont)
 if (optionselected == -1)
     draw_text_colour(25, 25, "Exit", c_white, c_white, c_white, c_white, 1)
 else
@@ -42,4 +46,22 @@ else
 	    draw_text_colour(300, 100, "New", c_white, c_white, c_white, c_white, 0.5)
 	else if (global.blockstyle == 0)
 	    draw_text_colour(300, 100, "Old", c_white, c_white, c_white, c_white, 0.5)
+}
+if (optionselected == 3)
+    draw_text_colour(25, 125, "Remix", c_white, c_white, c_white, c_white, 1)
+else
+    draw_text_colour(25, 125, "Remix", c_white, c_white, c_white, c_white, 0.5)
+if (optionselected == 3)
+{
+	if (global.remix == 1)
+	    draw_text_colour(300, 125, "On", c_white, c_white, c_white, c_white, 1)
+	else if (global.remix == 0)
+	    draw_text_colour(300, 125, "Off", c_white, c_white, c_white, c_white, 1)
+}
+else
+{
+	if (global.remix == 1)
+	    draw_text_colour(300, 125, "On", c_white, c_white, c_white, c_white, 0.5)
+	else if (global.remix == 0)
+	    draw_text_colour(300, 125, "Off", c_white, c_white, c_white, c_white, 0.5)
 }
