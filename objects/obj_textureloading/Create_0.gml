@@ -14,3 +14,4 @@ alarm[0] = 70;
 global.smoothcam = false
 global.slopeangle = false
 global.blockstyle = 1
+global.remix = false
