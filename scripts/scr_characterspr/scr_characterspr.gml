@@ -818,7 +818,7 @@ function scr_characterspr()
 	if (character == "G")
 	{
 		spr_idle = spr_playerG_idle;
-		spr_move = spr_player_move;
+		spr_move = spr_playerG_move;
 		spr_crawl = spr_player_crawl;
 		spr_idle = spr_playerG_idle; // yeah set it again why don't you
 		spr_hurt = spr_player_hurt;
