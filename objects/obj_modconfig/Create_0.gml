@@ -9,5 +9,3 @@ cooldown = 15
 optionimg = spr_Opeppino
 sped = -1
 infor = "Placeholdy Placeoholyo"
-
-global.remix = 0

@@ -1,7 +1,7 @@
 draw_set_font(global.usernamefont)
 //draw_sprite_tiled(bg_ball, 2, bg_x, bg_y)
 draw_sprite_tiled_ext(spr_electricwall, 0, bg_x, bg_y, 1, 1, c_white, 0.5)
-draw_sprite_tiled_ext(spr_optionsBG, 1, 384, 64, 1, 1, c_white, 0.3)
+draw_sprite_tiled_ext(spr_optionsBG, 1, bg_x, bg_y, 1, 1, c_white, 0.3)
 draw_set_halign(fa_left)
 draw_sprite_ext(spr_border, 0, 384, 64, 5.333333, 3.333333, 0, c_white, 1)
 draw_set_font(global.creditsfont)
