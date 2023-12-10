@@ -4,6 +4,7 @@ enum tvprompt
 	trigger,
 	transfo
 }
+global.remix = 0
 
 image_speed = 0.1;
 chose = false;

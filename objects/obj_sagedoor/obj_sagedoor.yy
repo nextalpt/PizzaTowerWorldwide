@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_doorkey",
-    "path": "sprites/spr_doorkey/spr_doorkey.yy",
+    "name": "spr_sagedoor",
+    "path": "sprites/spr_sagedoor/spr_sagedoor.yy",
   },
   "spriteMaskId": null,
   "visible": true,

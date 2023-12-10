@@ -5,3 +5,4 @@ target_y = 0;
 targetDoor = "A";
 scr_create_uparrowhitbox();
 ini_open("saveData.ini")
+global.locky = 0

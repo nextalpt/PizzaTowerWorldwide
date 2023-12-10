@@ -1,4 +1,4 @@
-if (!global.horse && !instance_exists(obj_jumpscare) && (obj_player1.state == states.normal || obj_player1.state == states.mach1 || obj_player1.state == states.pogo || obj_player1.state == states.mach2 || obj_player1.state == states.mach3 || obj_player1.state == states.Sjumpprep) && sprite_index == spr_doorkey && obj_player1.key_up && obj_player1.grounded && global.sage_key_inv == 1 && place_meeting(x, y, obj_player1))
+if (!global.horse && !instance_exists(obj_jumpscare) && (obj_player1.state == states.normal || obj_player1.state == states.mach1 || obj_player1.state == states.pogo || obj_player1.state == states.mach2 || obj_player1.state == states.mach3 || obj_player1.state == states.Sjumpprep) && sprite_index ==  spr_giantkey && obj_player1.key_up && obj_player1.grounded && global.sage_key_inv == 1 && place_meeting(x, y, obj_player1))
 {
 	ds_list_add(global.saveroom, id);
 	ini_open_from_string(obj_savesystem.ini_str);
@@ -17,7 +17,7 @@ if (!global.horse && !instance_exists(obj_jumpscare) && (obj_player1.state == st
 		obj_player2.image_index = 0;
 	}
 	image_index = 0;
-	sprite_index = spr_doorkeyopen;
+	sprite_index = spr_sagedoorunc;
 	image_speed = 0.35;
 	instance_create(x + 50, y + 50, obj_lock);
 	global.sage_key_inv = false;
@@ -34,7 +34,7 @@ if (instance_exists(obj_player2))
 		obj_player1.state = states.victory;
 		obj_player1.image_index = 0;
 		image_index = 0;
-		sprite_index = spr_doorkeyopen;
+			sprite_index = spr_sagedoorunc;
 		image_speed = 0.35;
 		instance_create(x + 50, y + 50, obj_lock);
 		global.key_inv = false;
