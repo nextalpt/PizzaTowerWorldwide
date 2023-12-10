@@ -5221,6 +5221,7 @@
     {"id":{"name":"bg_plains2","path":"sprites/bg_plains2/bg_plains2.yy",},},
     {"id":{"name":"bg_plains3","path":"sprites/bg_plains3/bg_plains3.yy",},},
     {"id":{"name":"spr_soldier_shootstart","path":"sprites/spr_soldier_shootstart/spr_soldier_shootstart.yy",},},
+    {"id":{"name":"spr_playerG_move","path":"sprites/spr_playerG_move/spr_playerG_move.yy",},},
     {"id":{"name":"bg_mansionplain","path":"sprites/bg_mansionplain/bg_mansionplain.yy",},},
     {"id":{"name":"bg_mansionside","path":"sprites/bg_mansionside/bg_mansionside.yy",},},
     {"id":{"name":"spr_parryhitbox","path":"sprites/spr_parryhitbox/spr_parryhitbox.yy",},},
