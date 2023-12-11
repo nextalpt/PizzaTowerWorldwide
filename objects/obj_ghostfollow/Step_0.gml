@@ -32,28 +32,35 @@ switch (state)
 		if (!fadein)
 		{
 			image_alpha = Approach(image_alpha, 0, acc);
-			with (playerid)
-			{
-				hsp = 0;
-				vsp = 0;
-				movespeed = 0;
-				x = hitX;
-				y = hitY;
-				image_alpha = other.image_alpha;
-			}
-			if (image_alpha <= 0)
-			{
-				fadein = true;
-				with (playerid)
-				{
-					x = roomstartx;
-					y = roomstarty;
-					ghostdash = false;
-					ghostpepper = 0;
-					other.x = other.xstart;
-					other.y = other.ystart;
-				}
-			}
+			if (object_index != obj_halloweenfollow)
+                {
+                    with (playerid)
+                    {
+                        x = roomstartx
+                        y = roomstarty
+                        ghostdash = 0
+                        ghostpepper = 0
+                        other.x = other.xstart
+                        other.y = other.ystart
+                    }
+                }
+                else
+                {
+                    with (playerid)
+                    {
+                        targetRoom = backtohubroom
+                        targetDoor = "D"
+                        ghostdash = 0
+                        ghostpepper = 0
+                    }
+                    global.level_minutes = 0
+                    global.level_seconds = 0
+                    locked = 1
+                    fadein = 0
+                    if (!instance_exists(obj_fadeout))
+                        notification_push((61 << 0), [room])
+                    instance_create_unique(0, 0, 1001)
+                }
 		}
 		else
 		{
