@@ -1,11 +1,14 @@
 {
   "FolderOrderSettings": [
+    {"name":"Halloween Update","order":2,"path":"folders/Objects/Halloween Update.yy",},
+    {"name":"Tricky Treat","order":1,"path":"folders/Rooms/Levels/Tricky Treat.yy",},
     {"name":"Backgrounds","order":1,"path":"folders/Sprites/Backgrounds.yy",},
     {"name":"Baddie","order":2,"path":"folders/Sprites/Baddie.yy",},
     {"name":"Boss","order":12,"path":"folders/Sprites/Boss.yy",},
     {"name":"Cutscene","order":3,"path":"folders/Sprites/Cutscene.yy",},
     {"name":"Debug","order":4,"path":"folders/Sprites/Debug.yy",},
     {"name":"Effects and Particles","order":5,"path":"folders/Sprites/Effects and Particles.yy",},
+    {"name":"Halloween Update","order":11,"path":"folders/Sprites/Halloween Update.yy",},
     {"name":"HUD","order":6,"path":"folders/Sprites/HUD.yy",},
     {"name":"Level Structure","order":7,"path":"folders/Sprites/Level Structure.yy",},
     {"name":"Player","order":8,"path":"folders/Sprites/Player.yy",},
@@ -13,9 +16,6 @@
     {"name":"Vigi","order":1,"path":"folders/Sprites/Player/Vigi.yy",},
     {"name":"Tilesets","order":9,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"Unused","order":10,"path":"folders/Sprites/Unused.yy",},
-    {"name":"Halloween Update","order":11,"path":"folders/Sprites/Halloween Update.yy",},
-    {"name":"Halloween Update","order":2,"path":"folders/Objects/Halloween Update.yy",},
-    {"name":"Tricky Treat","order":1,"path":"folders/Rooms/Levels/Tricky Treat.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_escapecollect","order":8,"path":"objects/obj_escapecollect/obj_escapecollect.yy",},
