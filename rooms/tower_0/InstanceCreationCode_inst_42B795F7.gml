@@ -1,1 +1,1 @@
-targetRoom = tower_test
+targetRoom = tower_entrancehall

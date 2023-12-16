@@ -34,10 +34,11 @@ for (var i = num; i > 0; i--)
 if (room != strongcold_endscreen)
 {
 	{
-	if !global.remix
+	if global.remix
+     scr_hub_bg_draw((tv_x + collect_x), ((tv_y + collect_y) + hud_posY), spr_tv_bgfinal, 1, 0)
+	else
 	draw_sprite_ext(spr_tv_bgfinal, tv_bg_index, tv_x + collect_x, tv_y + collect_y + hud_posY, 1, 1, 0, c_white, alpha);
-else
-scr_hub_bg_draw((tv_x + collect_x), ((tv_y + collect_y) + hud_posY), spr_tv_bgfinal, 1, 0)
+
 }
 	shader_set(global.Pal_Shader);
 	pattern_set(global.Base_Pattern_Color, sprite_index, image_index, image_xscale, image_yscale, global.palettetexture);

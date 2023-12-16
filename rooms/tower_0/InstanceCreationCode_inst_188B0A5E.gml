@@ -1,1 +1,1 @@
-text = "My pops said screw school, now he's dead.";
+text = "Whatever. Why are you even here?"

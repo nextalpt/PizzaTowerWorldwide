@@ -8,4 +8,4 @@ bg_y = 0
 cooldown = 15
 optionimg = spr_Opeppino
 sped = -1
-infor = "Placeholdy Placeoholyo"
+infor = "Set Thing Here"

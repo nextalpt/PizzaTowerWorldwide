@@ -196,6 +196,7 @@
     {"name":"spr_warsmoke1","order":93,"path":"sprites/spr_warsmoke1/spr_warsmoke1.yy",},
     {"name":"tile_strongcold2","order":2,"path":"sprites/tile_strongcold2/tile_strongcold2.yy",},
     {"name":"spr_motcycledebris","order":92,"path":"sprites/spr_motcycledebris/spr_motcycledebris.yy",},
+    {"name":"tower_zeroentrance","order":4,"path":"rooms/tower_zeroentrance/tower_zeroentrance.yy",},
     {"name":"spr_mortcubedebris","order":91,"path":"sprites/spr_mortcubedebris/spr_mortcubedebris.yy",},
     {"name":"spr_healthpickupeaten","order":90,"path":"sprites/spr_healthpickupeaten/spr_healthpickupeaten.yy",},
     {"name":"spr_minigunfall","order":89,"path":"sprites/spr_minigunfall/spr_minigunfall.yy",},
@@ -300,5 +301,6 @@
     {"name":"spr_bigpizzablockdead","order":2,"path":"sprites/spr_bigpizzablockdead/spr_bigpizzablockdead.yy",},
     {"name":"spr_piledrivereffect","order":1,"path":"sprites/spr_piledrivereffect/spr_piledrivereffect.yy",},
     {"name":"spr_sagedoorunc","order":2,"path":"sprites/spr_sagedoorunc/spr_sagedoorunc.yy",},
+    {"name":"spr_sagesign","order":4,"path":"sprites/spr_sagesign/spr_sagesign.yy",},
   ],
 }

@@ -4871,6 +4871,7 @@
     {"id":{"name":"spr_keysign2","path":"sprites/spr_keysign2/spr_keysign2.yy",},},
     {"id":{"name":"spr_keysign3","path":"sprites/spr_keysign3/spr_keysign3.yy",},},
     {"id":{"name":"spr_upsign","path":"sprites/spr_upsign/spr_upsign.yy",},},
+    {"id":{"name":"tower_zeroentrance","path":"rooms/tower_zeroentrance/tower_zeroentrance.yy",},},
     {"id":{"name":"spr_shootsign","path":"sprites/spr_shootsign/spr_shootsign.yy",},},
     {"id":{"name":"spr_rollsign","path":"sprites/spr_rollsign/spr_rollsign.yy",},},
     {"id":{"name":"spr_peppinoicon","path":"sprites/spr_peppinoicon/spr_peppinoicon.yy",},},
@@ -7202,6 +7203,7 @@
     {"id":{"name":"tile_towerfloor4tiles","path":"sprites/tile_towerfloor4tiles/tile_towerfloor4tiles.yy",},},
     {"id":{"name":"tile_towerfloor4","path":"tilesets/tile_towerfloor4/tile_towerfloor4.yy",},},
     {"id":{"name":"tile_space3props","path":"tilesets/tile_space3props/tile_space3props.yy",},},
+    {"id":{"name":"spr_sagesign","path":"sprites/spr_sagesign/spr_sagesign.yy",},},
     {"id":{"name":"tileset_tile_space2","path":"tilesets/tileset_tile_space2/tileset_tile_space2.yy",},},
     {"id":{"name":"tile_graveyardmine","path":"tilesets/tile_graveyardmine/tile_graveyardmine.yy",},},
     {"id":{"name":"tileset_tile_space3","path":"tilesets/tileset_tile_space3/tileset_tile_space3.yy",},},
@@ -8080,6 +8082,7 @@
     {"roomId":{"name":"hub_sage","path":"rooms/hub_sage/hub_sage.yy",},},
     {"roomId":{"name":"tower_0","path":"rooms/tower_0/tower_0.yy",},},
     {"roomId":{"name":"trickytreat_1","path":"rooms/trickytreat_1/trickytreat_1.yy",},},
+    {"roomId":{"name":"tower_zeroentrance","path":"rooms/tower_zeroentrance/tower_zeroentrance.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":false,"loadType":"default","mipsToGenerate":0,"targets":-1,},

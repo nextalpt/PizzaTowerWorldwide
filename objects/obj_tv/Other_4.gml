@@ -27,6 +27,7 @@ switch (global.leveltosave)
 		tv_bg_index = 1;
 		break;
 	case "medieval":
+		bgsprite = spr_gate_entranceBG
 		tv_bg_index = 2;
 		break;
 	case "ruin":
