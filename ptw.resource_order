@@ -16,6 +16,7 @@
     {"name":"Vigi","order":1,"path":"folders/Sprites/Player/Vigi.yy",},
     {"name":"Tilesets","order":9,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"Unused","order":10,"path":"folders/Sprites/Unused.yy",},
+    {"name":"Worldwide","order":3,"path":"folders/Objects/Worldwide.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_escapecollect","order":8,"path":"objects/obj_escapecollect/obj_escapecollect.yy",},
@@ -68,6 +69,7 @@
     {"name":"spr_saloondebris1","order":211,"path":"sprites/spr_saloondebris1/spr_saloondebris1.yy",},
     {"name":"spr_tvstatic","order":212,"path":"sprites/spr_tvstatic/spr_tvstatic.yy",},
     {"name":"stairs","order":1,"path":"sequences/stairs/stairs.yy",},
+    {"name":"spr_dressertabs","order":13,"path":"sprites/spr_dressertabs/spr_dressertabs.yy",},
     {"name":"spr_pizzahead_tvdebris","order":210,"path":"sprites/spr_pizzahead_tvdebris/spr_pizzahead_tvdebris.yy",},
     {"name":"spr_beerdebris","order":208,"path":"sprites/spr_beerdebris/spr_beerdebris.yy",},
     {"name":"spr_badlanddebris3","order":209,"path":"sprites/spr_badlanddebris3/spr_badlanddebris3.yy",},
@@ -182,6 +184,7 @@
     {"name":"spr_pizzaface_hiteffect3","order":107,"path":"sprites/spr_pizzaface_hiteffect3/spr_pizzaface_hiteffect3.yy",},
     {"name":"spr_peppattern10","order":1,"path":"sprites/spr_peppattern10/spr_peppattern10.yy",},
     {"name":"spr_pizzaballblock_debris","order":104,"path":"sprites/spr_pizzaballblock_debris/spr_pizzaballblock_debris.yy",},
+    {"name":"obj_penismusi","order":1,"path":"objects/obj_penismusi/obj_penismusi.yy",},
     {"name":"scr_player_angle","order":3,"path":"scripts/scr_player_angle/scr_player_angle.yy",},
     {"name":"spr_storagecratedebris","order":103,"path":"sprites/spr_storagecratedebris/spr_storagecratedebris.yy",},
     {"name":"spr_plugdebris","order":102,"path":"sprites/spr_plugdebris/spr_plugdebris.yy",},

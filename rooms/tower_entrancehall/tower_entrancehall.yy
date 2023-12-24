@@ -47,6 +47,7 @@
     {"name":"inst_31E85B3A","path":"rooms/tower_entrancehall/tower_entrancehall.yy",},
     {"name":"inst_BC02BB3","path":"rooms/tower_entrancehall/tower_entrancehall.yy",},
     {"name":"inst_38C3FA08","path":"rooms/tower_entrancehall/tower_entrancehall.yy",},
+    {"name":"inst_43A5F534","path":"rooms/tower_entrancehall/tower_entrancehall.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -91,6 +92,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_31E85B3A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretblock","path":"objects/obj_secretblock/obj_secretblock.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BC02BB3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hallway","path":"objects/obj_hallway/obj_hallway.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":-96.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_38C3FA08","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorD","path":"objects/obj_doorD/obj_doorD.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":416.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_43A5F534","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_penismusi","path":"objects/obj_penismusi/obj_penismusi.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":672.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":25,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":33,"SerialiseWidth":91,"TileCompressedData":[
 -32,51,6,460,461,462,463,464,465,-33,51,4,620,621,622,623,-8,51,4,506,507,508,509,-17,51,4,600,601,602,603,-15,51,6,480,481,482,483,484,485,-33,51,4,640,641,642,643,-8,51,4,526,527,528,529,-17,51,4,620,621,622,623,-15,51,6,500,501,502,503,504,505,-33,51,4,660,661,662,663,-8,51,4,546,547,548,549,-17,51,4,640,641,642,643,-15,
