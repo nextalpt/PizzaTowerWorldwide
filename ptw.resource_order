@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [
     {"name":"Halloween Update","order":2,"path":"folders/Objects/Halloween Update.yy",},
+    {"name":"Worldwide","order":3,"path":"folders/Objects/Worldwide.yy",},
     {"name":"Tricky Treat","order":1,"path":"folders/Rooms/Levels/Tricky Treat.yy",},
     {"name":"Backgrounds","order":1,"path":"folders/Sprites/Backgrounds.yy",},
     {"name":"Baddie","order":2,"path":"folders/Sprites/Baddie.yy",},
@@ -16,7 +17,6 @@
     {"name":"Vigi","order":1,"path":"folders/Sprites/Player/Vigi.yy",},
     {"name":"Tilesets","order":9,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"Unused","order":10,"path":"folders/Sprites/Unused.yy",},
-    {"name":"Worldwide","order":3,"path":"folders/Objects/Worldwide.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_escapecollect","order":8,"path":"objects/obj_escapecollect/obj_escapecollect.yy",},
