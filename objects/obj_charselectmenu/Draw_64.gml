@@ -39,7 +39,7 @@ pattern_reset();
 reset_shader_fix();
 draw_set_font(global.creditsfont)
 draw_text_color(SCREEN_WIDTH / 2, (SCREEN_HEIGHT / 2) + 100, bigtext, c_white, c_white, c_white, c_white, alpha)
-draw_set_font(global.smallfont)
+draw_set_font(global.usernamefont)
 draw_text_color(SCREEN_WIDTH / 2, (SCREEN_HEIGHT / 2) + 150, string_upper(smalltext), c_white, c_white, c_white, c_white, alpha)
 shader_set(global.Pal_Shader);
 pattern_set(global.Base_Pattern_Color, spr_character, char_index, 2, 2, global.palettetexture);

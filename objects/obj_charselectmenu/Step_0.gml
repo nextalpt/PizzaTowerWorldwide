@@ -54,7 +54,7 @@ if !ready
 		spr_taunt = spr_player_taunt
 		spr_palette = spr_peppalette
 		bigtext = "Peppino Spaghetti"
-		smalltext = "A PORTLY ITALIAN CHEF TRYING TO KEEP HIS SHOP IN BUSINESS"
+		smalltext = "A portly Italian chef trying to keep his shop in business"
 		snd_selected = "event:/sfx/misc/collectpizza"
 		snd_taunt = "event:/sfx/pep/taunt"
 	}
@@ -65,29 +65,29 @@ if !ready
 		spr_taunt = spr_playerN_taunt
 		spr_palette = spr_noisepalette
 		bigtext = "The Noise"
-		smalltext = "A MISCHEVIOUS GREMLIN LOOKING TO CAUSE TROBLE WHENEVER HE CAN"
+		smalltext = "A mischevious gremlin looking to cause trouble whenever he can"
 		snd_selected = "event:/sfx/misc/collectpizza"
-		snd_taunt = "event:/sfx/pep/noisetaunt"
+		snd_taunt = "event:/sfx/pep/taunt"
 	}
 	if character_selected = 2
-	{
-		spr_character = spr_playerN_pogofall
-		spr_selected = spr_playerN_hurt
-		spr_taunt = spr_playerN_taunt
-		spr_palette = spr_noisepalette
-		bigtext = "Pogo Noise"
-		smalltext = "THE SAME THING BUT WITH A POGO STICK (WOWIE!)"
-		snd_selected = "event:/sfx/misc/collectpizza"
-		snd_taunt = "event:/sfx/pep/noisetaunt"
-	}
-	if character_selected = 3
 	{
 		spr_character = spr_playerV_panic
 		spr_selected = spr_playerV_hurt
 		spr_taunt = spr_playerV_taunt
 		spr_palette = spr_vigipalette
 		bigtext = "The Vigilante"
-		smalltext = "THE TOUGH SHERIFF OF THE WESTERN DISTRICT"
+		smalltext = "The tough sheriff of the Western District"
+		snd_selected = "event:/sfx/misc/collectpizza"
+		snd_taunt = "event:/sfx/pep/taunt"
+	}
+	if character_selected = 3
+	{
+		spr_character = spr_playerN_idle
+		spr_selected = spr_playerN_move
+		spr_taunt = spr_playerN_idle
+		spr_palette = spr_gegginopalette
+		bigtext = "pisselle"
+		smalltext = "do you know the muffin man"
 		snd_selected = "event:/sfx/misc/collectpizza"
 		snd_taunt = "event:/sfx/pep/taunt"
 	}
@@ -98,7 +98,7 @@ if !ready
 		spr_taunt = spr_playerG_idle
 		spr_palette = spr_gegginopalette
 		bigtext = "Geggino Gawgeronii"
-		smalltext = "A WEIRD GUY FROM NORWAY WITH A GRILLED CHEESE RESTAURANT"
+		smalltext = "A weird guy from Norway with a grilled cheese restaurant"
 		snd_selected = "event:/sfx/misc/collectpizza"
 		snd_taunt = "event:/sfx/pep/taunt"
 	}
@@ -168,21 +168,21 @@ if ready && !donecharswitch
 				sprite_index = spr_idle
 				break
 			case 1:
-				character = "P"
-				ispeppino = 0
-				scr_characterspr()
-				paletteselect = obj_charselectmenu.paletteselect
-				sprite_index = spr_idle
-				break
-			case 2:
 				character = "N"
 				ispeppino = 0
 				scr_characterspr()
 				paletteselect = obj_charselectmenu.paletteselect
 				sprite_index = spr_idle
 				break
-			case 3:
+			case 2:
 				character = "V"
+				ispeppino = 0
+				scr_characterspr()
+				paletteselect = obj_charselectmenu.paletteselect
+				sprite_index = spr_idle
+				break
+			case 3:
+				character = "PZ"
 				ispeppino = 0
 				scr_characterspr()
 				paletteselect = obj_charselectmenu.paletteselect

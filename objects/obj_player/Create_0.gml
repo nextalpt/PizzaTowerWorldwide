@@ -718,7 +718,7 @@ spinsndbuffer = 5;
 boxxedspinbuffer = 0;
 noisebossscream = false;
 gallopingsnd = fmod_event_create_instance("event:/sfx/misc/galloping");
-global.username = "AN USERNAME HERE"
+global.username = "Dingus"
 global.username_color = c_white
 //scr_createusername();
 opinput = vk_f1
