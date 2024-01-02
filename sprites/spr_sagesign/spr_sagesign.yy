@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_sagesign",
   "bbox_bottom": 123,
-  "bbox_left": 7,
-  "bbox_right": 113,
-  "bbox_top": 3,
+  "bbox_left": 14,
+  "bbox_right": 99,
+  "bbox_top": 33,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a40592a9-3129-4c32-bee9-342f245362b0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"17b78b78-e89d-44d1-b5f2-33c637ab4933",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 124,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ab68e4ac-8523-4340-9bf9-02d2d29c3f36","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7965d147-3a71-429d-8171-8dfc4ce351be","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a40592a9-3129-4c32-bee9-342f245362b0","path":"sprites/spr_sagesign/spr_sagesign.yy",},},},"Disabled":false,"id":"f4823e9c-a368-4c95-916d-11553be7311f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"17b78b78-e89d-44d1-b5f2-33c637ab4933","path":"sprites/spr_sagesign/spr_sagesign.yy",},},},"Disabled":false,"id":"bd5c827e-f962-4f8c-8095-667a0183a3b2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

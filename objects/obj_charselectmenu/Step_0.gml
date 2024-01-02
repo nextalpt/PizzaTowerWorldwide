@@ -85,20 +85,9 @@ if !ready
 		spr_character = spr_playerN_idle
 		spr_selected = spr_playerN_move
 		spr_taunt = spr_playerN_idle
-		spr_palette = spr_gegginopalette
+		spr_palette = spr_peppalette
 		bigtext = "pisselle"
 		smalltext = "do you know the muffin man"
-		snd_selected = "event:/sfx/misc/collectpizza"
-		snd_taunt = "event:/sfx/pep/taunt"
-	}
-	if character_selected = 4
-	{
-		spr_character = spr_playerG_idle
-		spr_selected = spr_playerG_move
-		spr_taunt = spr_playerG_idle
-		spr_palette = spr_gegginopalette
-		bigtext = "Geggino Gawgeronii"
-		smalltext = "A weird guy from Norway with a grilled cheese restaurant"
 		snd_selected = "event:/sfx/misc/collectpizza"
 		snd_taunt = "event:/sfx/pep/taunt"
 	}
@@ -183,13 +172,6 @@ if ready && !donecharswitch
 				break
 			case 3:
 				character = "PZ"
-				ispeppino = 0
-				scr_characterspr()
-				paletteselect = obj_charselectmenu.paletteselect
-				sprite_index = spr_idle
-				break
-			case 4:
-				character = "G"
 				ispeppino = 0
 				scr_characterspr()
 				paletteselect = obj_charselectmenu.paletteselect
