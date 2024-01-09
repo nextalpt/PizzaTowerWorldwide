@@ -299,7 +299,8 @@ enum states
 	secretenter,
 	teleport,
 	KO,
-	camera_followtarget
+	camera_followtarget,
+	breakdance
 }
 
 global.coop = false;

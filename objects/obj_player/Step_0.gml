@@ -579,6 +579,9 @@ switch (state)
 	case states.supergrab:
 		scr_player_supergrab();
 		break;
+	case states.breakdance:
+		scr_player_breakdance();
+		break;
 }
 
 if global.slopeangle
@@ -1272,3 +1275,21 @@ if (state != states.comingoutdoor)
 	image_blend = c_white;
 prevstate = state;
 prevsprite = sprite_index;
+if character == "P" && ispeppino
+{
+    if (key_shoot2 && shotgunAnim == 0 && state != (80 << 0))
+    {
+        if (state == (0 << 0) || state == (0 << 0) || state == (103 << 0) || state == (104 << 0) || state == (121 << 0) || state == (92 << 0))
+        {
+            movespeed = 9
+            state = states.breakdance
+            fmod_event_one_shot_3d("event:/sfx/misc/breakdance", obj_player1.x, obj_player1.y)
+            sprite_index = spr_player_breakdancestart
+            with (instance_create(x, y, obj_dashcloud2))
+            image_xscale = other.xscale
+            breakdance = 35
+            image_index = 0
+            instance_create(x, y, obj_swingdinghitbox)
+        }
+    }
+}
