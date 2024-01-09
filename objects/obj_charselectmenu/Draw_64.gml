@@ -65,6 +65,14 @@ if paletteselect < sprite_get_width(spr_palette) - 1
 	pattern_reset();
 	reset_shader_fix();
 }
+if hatselect > 0
+{
+	draw_sprite_ext(spr_hat, -1, SCREEN_WIDTH - 200 + hatoffset, (SCREEN_HEIGHT / 2) - 110, 1, 1, 0, c_white, alpha)
+}
+if hatselect < 1
+{
+	draw_sprite_ext(spr_hat, -1, SCREEN_WIDTH - 200 + hatoffset, (SCREEN_HEIGHT / 2) + 110, 1, 1, 0, c_white, alpha)
+}
 if menu_select = 0
 {
 	off1 = Approach(off1, 0, 3)
@@ -75,7 +83,7 @@ else
 	off1 = Approach(off1, 25, 3)
 	_c1 = c_gray
 }
-draw_sprite_ext(spr_dressertabs, 0, 0, 0 - off1, 1, 1, 0, _c1, alpha)
+draw_sprite_ext(spr_dressertabs, 0, 0 - off1, 0, 1, 1, 0, _c1, alpha)
 if menu_select = 1
 {
 	off2 = Approach(off2, 0, 3)
@@ -86,7 +94,7 @@ else
 	off2 = Approach(off2, 25, 3)
 	_c2 = c_gray
 }
-draw_sprite_ext(spr_dressertabs, 1, 150, 0 - off2, 1, 1, 0, _c2, alpha)
+draw_sprite_ext(spr_dressertabs, 1, 0 - off2, 150, 1, 1, 0, _c2, alpha)
 if menu_select = 2
 {
 	off3 = Approach(off3, 0, 3)
@@ -97,15 +105,4 @@ else
 	off3 = Approach(off3, 25, 3)
 	_c3 = c_gray
 }
-draw_sprite_ext(spr_dressertabs, 2, 300, 0 - off3, 1, 1, 0, _c3, alpha)
-if menu_select = 3
-{
-	off4 = Approach(off4, 0, 3)
-	var _c4 = c_white
-}
-else
-{
-	off4 = Approach(off4, 25, 3)
-	_c4 = c_gray
-}
-draw_sprite_ext(spr_dressertabs, 3, 450, 0 - off4, 1, 1, 0, _c4, alpha)
+draw_sprite_ext(spr_dressertabs, 2, 0 - off3, 300, 1, 1, 0, _c3, alpha)

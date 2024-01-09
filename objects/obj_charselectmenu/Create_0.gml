@@ -4,6 +4,7 @@ scr_initinput()
 alpha = 0
 spr_character = spr_player_panic
 spr_palette = spr_peppalette
+spr_hat = spr_cowboyhat1
 char_string = "pep"
 bigtext = "Peppino Spaghetti"
 smalltext = "A portly Italian chef trying to keep his shop in business"
@@ -31,3 +32,5 @@ off3 = 25
 off4 = 25
 paletteselect = obj_player.paletteselect
 clothesoffset = 500
+hatselect = 0
+hatoffset = 500

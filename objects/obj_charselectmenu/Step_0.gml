@@ -41,7 +41,7 @@ if !ready
 		fmod_event_one_shot("event:/sfx/ui/angelmove")
 		//xoffset = -24
 	}
-	if key_right2 && menu_select < 3
+	if key_right2 && menu_select < 2
 	{
 		menu_select ++
 		fmod_event_one_shot("event:/sfx/ui/angelmove")
@@ -86,8 +86,8 @@ if !ready
 		spr_selected = spr_playerN_move
 		spr_taunt = spr_playerN_idle
 		spr_palette = spr_peppalette
-		bigtext = "pisselle"
-		smalltext = "do you know the muffin man"
+		bigtext = "Pizzelle"
+		smalltext = "UNIMPLEMENTED!!!!!!! WILL BE VERY BUGGY"
 		snd_selected = "event:/sfx/misc/collectpizza"
 		snd_taunt = "event:/sfx/pep/taunt"
 	}
@@ -122,6 +122,21 @@ if !ready
 		if key_up2 && paletteselect > 0
 		{
 			paletteselect--
+			fmod_event_one_shot("event:/sfx/ui/angelmove")
+		}
+	}
+	if menu_select = 2
+	{
+		xoffset = lerp(xoffset, -200, 0.1)
+		hatoffset = lerp(hatoffset, 0, 0.1)
+		if key_down2 && hatselect < sprite_get_width(spr_hat) - 1
+		{
+			hatselect++
+			fmod_event_one_shot("event:/sfx/ui/angelmove")
+		}
+		if key_up2 && paletteselect > 0
+		{
+			hatselect--
 			fmod_event_one_shot("event:/sfx/ui/angelmove")
 		}
 	}
