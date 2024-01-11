@@ -35,13 +35,13 @@ if !ready
 		eff_index = 0
 		draw_taunt = true
 	}
-	if -key_left2 && menu_select > 0
+	if -key_up2 && menu_select > 0
 	{
 		menu_select--
 		fmod_event_one_shot("event:/sfx/ui/angelmove")
 		//xoffset = -24
 	}
-	if key_right2 && menu_select < 2
+	if key_down2 && menu_select < 2
 	{
 		menu_select ++
 		fmod_event_one_shot("event:/sfx/ui/angelmove")
@@ -114,12 +114,12 @@ if !ready
 	{
 		xoffset = lerp(xoffset, -200, 0.1)
 		clothesoffset = lerp(clothesoffset, 0, 0.1)
-		if key_down2 && paletteselect < sprite_get_width(spr_palette) - 1
+		if key_right2 && paletteselect < sprite_get_width(spr_palette) - 1
 		{
 			paletteselect++
 			fmod_event_one_shot("event:/sfx/ui/angelmove")
 		}
-		if key_up2 && paletteselect > 0
+		if key_left2 && paletteselect > 0
 		{
 			paletteselect--
 			fmod_event_one_shot("event:/sfx/ui/angelmove")
@@ -129,12 +129,12 @@ if !ready
 	{
 		xoffset = lerp(xoffset, -200, 0.1)
 		hatoffset = lerp(hatoffset, 0, 0.1)
-		if key_down2 && hatselect < sprite_get_width(spr_hat) - 1
+		if key_right2 && hatselect < sprite_get_width(spr_hat) - 1
 		{
 			hatselect++
 			fmod_event_one_shot("event:/sfx/ui/angelmove")
 		}
-		if key_up2 && paletteselect > 0
+		if key_left2 && paletteselect > 0
 		{
 			hatselect--
 			fmod_event_one_shot("event:/sfx/ui/angelmove")

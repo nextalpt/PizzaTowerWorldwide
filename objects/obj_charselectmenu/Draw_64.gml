@@ -44,7 +44,7 @@ draw_text_color(SCREEN_WIDTH / 2, (SCREEN_HEIGHT / 2) + 150, string_upper(smallt
 shader_set(global.Pal_Shader);
 pattern_set(global.Base_Pattern_Color, spr_character, char_index, 2, 2, global.palettetexture);
 pal_swap_set(spr_palette, paletteselect, false);
-draw_sprite_ext(spr_palettedresserdebris, -1, SCREEN_WIDTH - 200 + clothesoffset, (SCREEN_HEIGHT / 2), 2, 2, 0, c_white, alpha)
+draw_sprite_ext(spr_palettedresserdebris, -1, (SCREEN_WIDTH / 2) + clothesoffset, SCREEN_HEIGHT - 200, 2, 2, 0, c_white, alpha)
 pattern_reset();
 reset_shader_fix();
 if paletteselect > 0
@@ -52,7 +52,7 @@ if paletteselect > 0
 	shader_set(global.Pal_Shader);
 	pattern_set(global.Base_Pattern_Color, spr_character, char_index, 2, 2, global.palettetexture);
 	pal_swap_set(spr_palette, paletteselect - 1, false);
-	draw_sprite_ext(spr_palettedresserdebris, -1, SCREEN_WIDTH - 200 + clothesoffset, (SCREEN_HEIGHT / 2) - 110, 1, 1, 0, c_white, alpha)
+	draw_sprite_ext(spr_palettedresserdebris, -1, (SCREEN_WIDTH / 2) + clothesoffset, SCREEN_HEIGHT - 310, 1, 1, 0, c_white, alpha)
 	pattern_reset();
 	reset_shader_fix();
 }

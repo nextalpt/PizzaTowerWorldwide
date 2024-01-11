@@ -125,6 +125,7 @@
     {"name":"spr_tntblockdebris","order":164,"path":"sprites/spr_tntblockdebris/spr_tntblockdebris.yy",},
     {"name":"spr_rockdebris","order":158,"path":"sprites/spr_rockdebris/spr_rockdebris.yy",},
     {"name":"spr_tvdebris","order":154,"path":"sprites/spr_tvdebris/spr_tvdebris.yy",},
+    {"name":"obj_videointro","order":1,"path":"objects/obj_videointro/obj_videointro.yy",},
     {"name":"spr_feather","order":156,"path":"sprites/spr_feather/spr_feather.yy",},
     {"name":"spr_crushershockwave","order":159,"path":"sprites/spr_crushershockwave/spr_crushershockwave.yy",},
     {"name":"spr_baddiespawn","order":157,"path":"sprites/spr_baddiespawn/spr_baddiespawn.yy",},
