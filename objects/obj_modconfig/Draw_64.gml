@@ -1,4 +1,4 @@
-draw_set_font(global.usernamefont)
+/*draw_set_font(global.usernamefont)
 //draw_sprite_tiled(bg_ball, 2, bg_x, bg_y)
 draw_sprite_tiled_ext(spr_electricwall, 0, bg_x, bg_y, 1, 1, c_white, 0.5)
 draw_sprite_tiled_ext(spr_optionsBG, 1, bg_x, bg_y, 1, 1, c_white, 0.3)
@@ -48,7 +48,9 @@ else
 }
 if (optionselected == 3)
     draw_text_colour(25, 125, "Remix", c_white, c_white, c_white, c_white, 1)
-else
+elsefor (var i = 0; i < condition; ++i) {
+	    // code here
+	}
     draw_text_colour(25, 125, "Remix", c_white, c_white, c_white, c_white, 0.5)
 if (optionselected == 3)
 {
@@ -63,4 +65,13 @@ else
 	    draw_text_colour(300, 125, "On", c_white, c_white, c_white, c_white, 0.5)
 	else if (global.remix == 0)
 	    draw_text_colour(300, 125, "Off", c_white, c_white, c_white, c_white, 0.5)
+}*/
+draw_sprite_tiled_ext(spr_electricwall, 0, bg_x--, bg_y--, 1, 1, c_white, 0.5)
+draw_sprite_tiled_ext(spr_optionsBG, 1, bg_x--, bg_y--, 1, 1, c_white, 0.3)
+var gety = 25
+for (var i = 0; i < array_length(menu_arr); ++i) {
+	var txtalpha = (selected == i) ? 1 : 0.5;
+	draw_text(25, gety,  menu_arr[i])
+	gety += 25
+	for var
 }

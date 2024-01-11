@@ -13,12 +13,12 @@
   "author": "",
   "classname": "",
   "copyToTargets": -1,
-  "date": "2023-01-28T01:18:12.3699006+11:00",
+  "date": "2023-01-27T21:18:12.3699006+07:00",
   "description": "",
   "exportToGame": true,
   "extensionVersion": "0.0.1",
   "files": [
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":3026418971067809998,"filename":"fmod-gamemaker.dll","final":"","functions":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"fmod-gamemaker.dll","constants":[],"copyToTargets":3026418971067809998,"filename":"fmod-gamemaker.dll","final":"","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"fmod_init","argCount":1,"args":[
             2,
           ],"documentation":"","externalName":"FMOD_Init","help":"","hidden":false,"kind":1,"returnType":2,},
