@@ -66,12 +66,16 @@ else
 	else if (global.remix == 0)
 	    draw_text_colour(300, 125, "Off", c_white, c_white, c_white, c_white, 0.5)
 }*/
+draw_set_font(global.usernamefont);
 draw_sprite_tiled_ext(spr_electricwall, 0, bg_x--, bg_y--, 1, 1, c_white, 0.5)
 draw_sprite_tiled_ext(spr_optionsBG, 1, bg_x--, bg_y--, 1, 1, c_white, 0.3)
+draw_text_color(273, 386, infor, c_white, c_white, c_white, c_white, 1)
 var gety = 25
 for (var i = 0; i < array_length(menu_arr); ++i) {
 	var txtalpha = (selected == i) ? 1 : 0.5;
-	draw_text(25, gety,  menu_arr[i])
+	draw_text_color(25, gety,  menu_arr[i][0], c_white, c_white, c_white, c_white, txtalpha)
+	var swtch = (menu_arr[i][1] == 1) ? "On" : "Off"
+	if menu_arr[i][1] != "none" 
+		draw_text(300, gety, menu_arr[i][1])
 	gety += 25
-	for var
 }

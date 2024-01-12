@@ -34,6 +34,8 @@ if (active && sprite_index != spr_secretportal_open && !instance_exists(obj_jump
 	other.hsp = 0;
 	other.cutscene = true;
 	other.brick = true;
+	other.sprite_index = spr_deathend
+	other.image_angle = peppidongs
 	with (obj_brickcomeback)
 	{
 		create_particle(x, y, particle.genericpoofeffect);

@@ -9,6 +9,7 @@ if (active)
 }
 if (touched && sprite_index == spr_secretportal_close)
 {
+	peppidongs = Approach(peppidongs, 360, 25)
 	with (playerid)
 	{
 		hsp = 0;

@@ -33,6 +33,7 @@ switch (sprite_index)
 					{
 						visible = true;
 						cutscene = false;
+						image_angle = 0
 						sprite_index = spr_bodyslamstart;
 						image_index = 0;
 						state = states.freefallprep;
