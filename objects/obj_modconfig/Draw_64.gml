@@ -66,6 +66,7 @@ else
 	else if (global.remix == 0)
 	    draw_text_colour(300, 125, "Off", c_white, c_white, c_white, c_white, 0.5)
 }*/
+draw_set_halign(fa_left)
 draw_set_font(global.usernamefont);
 draw_sprite_tiled_ext(spr_electricwall, 0, bg_x--, bg_y--, 1, 1, c_white, 0.5)
 draw_sprite_tiled_ext(spr_optionsBG, 1, bg_x--, bg_y--, 1, 1, c_white, 0.3)

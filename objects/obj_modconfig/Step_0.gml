@@ -1,5 +1,5 @@
 scr_getinput()
-if ((key_up2 || keyboard_check_pressed(vk_up)) && optionselected < 0 && selected == 0)
+if ((key_up2 || keyboard_check_pressed(vk_up)) && optionselected > -1 && selected == 0)
     optionselected--
 if ((key_down2 || keyboard_check_pressed(vk_down)) && optionselected < 3 && selected == 0)
     optionselected++

@@ -21,11 +21,12 @@
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
--32,25,1,17,-24,32,6,19,25,25,15,15,16,-24,0,6,14,15,15,25,25,26,-24,0,1,24,-4,25,1,26,
--24,0,1,24,-4,25,1,26,-24,0,1,24,-4,25,1,26,-24,0,1,24,-4,25,1,26,-24,0,1,24,-4,25,
-1,26,-24,0,1,24,-4,25,1,26,-24,0,1,24,-4,25,1,26,-24,0,1,24,-4,25,1,26,-24,0,1,24,
--4,25,1,26,-24,0,1,24,-4,25,1,26,-24,0,6,24,25,25,35,35,36,-24,0,6,34,35,35,25,25,37,
--24,12,1,39,-32,25,],"TileDataFormat":1,},"tilesetId":{"name":"tile_pizzamart","path":"tilesets/tile_pizzamart/tile_pizzamart.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-32,22,26,26,52,53,54,52,53,54,52,53,54,52,53,54,52,53,54,52,53,54,52,53,54,52,53,54,268435482,-4,
+22,2,36,37,-22,0,2,268435493,268435492,-4,22,1,25,-24,0,1,21,-4,22,1,35,-24,0,1,31,-4,22,1,45,-24,
+0,1,41,-4,22,1,45,-24,0,1,41,-4,22,1,15,-24,0,1,11,-4,22,1,25,-24,0,1,21,-4,22,1,
+35,-24,0,1,31,-4,22,1,45,-24,0,1,41,-4,22,1,15,-24,0,1,11,-4,22,1,25,-24,0,1,21,-4,
+22,1,35,-24,0,1,31,-4,22,1,45,-24,0,1,41,-4,22,26,16,2,3,4,2,3,4,2,3,4,2,3,
+4,2,3,4,2,3,4,2,3,4,2,3,4,19,-32,22,],"TileDataFormat":1,},"tilesetId":{"name":"tile_pizzamart","path":"tilesets/tile_pizzamart/tile_pizzamart.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_75AD9AC1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":17.0,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_0A510839","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":27.0,"scaleY":2.0,"x":96.0,"y":480.0,},

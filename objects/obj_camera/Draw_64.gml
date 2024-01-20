@@ -187,3 +187,7 @@ camera_set_view_angle(view_camera[0], (tilt * angle))
 }
 if (global.panic == 0)
 camera_set_view_angle(view_camera[0], 0)
+draw_set_halign(fa_left)
+draw_set_valign(fa_bottom)
+draw_set_font(global.usernamefont);
+draw_text(0, 0, "PTW Build 1.5")
